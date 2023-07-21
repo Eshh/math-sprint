@@ -40,14 +40,14 @@ body {
   font-size: 24px;
   text-shadow: 1px 2px 2px black;
   letter-spacing: 2px;
-  height: 100px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .card {
-  margin: 5px auto 10px;
+  /* margin: 5px auto 10px; */
   height: 600px;
 }
 
@@ -64,7 +64,7 @@ input[type="radio"] {
 
 .selection-container {
   position: relative;
-  top: 65px;
+  top: 15px;
 }
 
 .radio-container {
@@ -109,7 +109,7 @@ label {
 }
 
 .selection-footer {
-  top: 134px;
+  top: 30px;
 }
 
 /* Game Page -------------------------- */
@@ -138,7 +138,7 @@ label {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  height: 80px;
+  height: 70px;
   margin: 0 50px;
   user-select: none;
 }
@@ -153,14 +153,14 @@ label {
   top: 443px;
   z-index: -1;
   width: 529px;
-  height: 80px;
+  height: 70px;
 }
 
 .item-footer,
 .selection-footer {
   width: 100%;
-  height: 90px;
-  background: rgba(0, 0, 0, 1);
+  height: 35px;
+  /* background: rgba(0, 0, 0, 1); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,7 @@ label {
 }
 
 .item-footer {
-  top: 1px;
+  top: -60px;
 }
 
 button {
@@ -224,7 +224,7 @@ button:active {
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -234,7 +234,7 @@ button:active {
   display: flex;
   justify-content: center;
   position: relative;
-  top: -30px;
+  top: -130px;
 }
 
 .title {
@@ -259,11 +259,11 @@ button:active {
 /* Media Query: Laptop */
 @media screen and (max-width: 1800px) {
   .game-container {
-    margin-top: 35px;
+    margin-top: 20px;
   }
 
   .selected-item {
-    top: 380px;
+    top: 310px;
   }
 }
 
@@ -276,7 +276,7 @@ button:active {
   }
 
   .selected-item {
-    top: 345px;
+    top: 295px;
   }
 
   .header {
@@ -288,7 +288,7 @@ button:active {
   }
 
   .selection-container {
-    top: 100px;
+    top: 120px;
   }
 
   .radio-container {
